@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <link rel="stylesheet" href="ShoppingCart.css">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="D:\Pw - Grove Street Supps\font-awesome-4.7.0\font-awesome-4.7.0\css\font-awesome.min.css">
+        <title>Carrinho de Compras da Grove Street Supplements</title>
+        <link rel="Icon" href="ICONLOJA.jpg" type="image/x-icon">
+    </head>
+
+    <body id="Corpo">
+        <div id="Cabeçalho">
+            <img src="GROVEAUTORAL.png" alt="LogoGroveStreetSupps" id="Logo">
+            <form method="action=">
+                <input type="search" placeholder="Encontre Suplementos.." id="Pesquisar">
+            </form>
+
+            <div id="Botão">
+                <form method="get" action="ShoppingCart.html">
+                   <button type="submit" id="botaocarro"><img src="CART.png" id="IconCarrinho"></button>
+                </form>
+            </div>
+
+            <div id="Botão2">
+                <form method="get" action="MinhaConta.html">
+                    <button type="submit" id="botaoconta"><img src="PESSOALOGIN.png" id="LoginIcon"></button>
+                </form>
+            </div>
+
+            <div class="Extras">
+                <form method="get" action="index.html" id="indexbuttom">
+                    <button type="submit" id="">Inicio</button>
+                </form>
+
+                <form method="get" action="Sobre.html" id="Sobre">
+                    <button type="submit" id="BotaoSobre">Sobre</button>
+                </form>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="small-container carrinho-pag">
+            <table>
+                <tr>
+                    <th>Produtos</th>
+                    <th>Quantidade</th>
+                    <th>Preço</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="info-carrinho">
+                            <img src="CREATINAMAX.jpg">
+                            <div>
+                                <p>Creatine 300G - Max Titanium</p>
+                                <small>Valor: R$77,90</small>
+                                <a href="">Remover</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><Input type="number" value="1"></td>
+                    <td>R$77,90</td> 
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="info-carrinho">
+                            <img src="WHEYSKULL.jpg">
+                            <div>
+                                <p>Black Skull Whey 100% - 900 g</p>
+                                <small>Valor: R$55,70</small>
+                                <a href="">Remover</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><Input type="number" value="1"></td>
+                    <td>R$55,70</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="info-carrinho">
+                            <img src="PWMODELO.png">
+                            <div>
+                                <p>Pré treino venom - 40 doses</p>
+                                <small>Valor: R$251,75</small>
+                                <a href="">Remover</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><Input type="number" value="1"></td>
+                    <td>R$251,75</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <div class="info-carrinho">
+                            <img src="GHMODELO.png">
+                            <div>
+                                <p>Testodrol-gh 60 Cápsulas - Profit</p>
+                                <small>Valor: R$43,11</small>
+                                <a href="">Remover</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td><Input type="number" value="1"></td>
+                    <td>R$43,11</td>
+                </tr>
+            </table>
+
+            <div class="preco-total">
+                <table>
+                    <tr>
+                        <td>Subtotal (4 produtos)</td>
+                        <td>R$428.46</td> 
+                    </tr>
+
+                    <tr>
+                        <td>Taxa de Entrega</td>
+                        <td>R$19,90</td>
+                    </tr>
+
+                    <tr>
+                        <td><b>Total</b></td>
+                        <td><b>R$448.36</b></td> 
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <form action="FinalizarPedido.html">
+                                <button type="submit" id="botao"> Continuar </button>
+                            </form>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <br>
+
+        <footer>
+            <div class="wrapper">
+                <div class="footer-box">
+                    <div class="company-footer">
+                        <img src="MASSINHA.png" id="LogoFooter">
+                        <h2>Grove Street Supplements</h2>
+                        <p>ALL WE HAVE TO DO IS BUY THE DAMN SUPPS CJ!</p>
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <div class="articles-footer">
+                        <h2>Mais Procurados!</h2>
+                        <ul class="footer-list footer-article-list">
+                            <li>
+                                <a href="#">Suplementos</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Acessorios</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Vitaminas</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Roupas</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Ebook</a>
+                            </li>
+
+                            <li>
+                                <a href="#">Outros</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+                <div class="footer-box">
+                    <h2>Redes Sociais!</h2>
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-facebook-square fa-lg"></i>
+                                <span>Facebook</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-instagram fa-lg"></i>
+                                <span>Instagram</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-linkedin fa-lg"></i>
+                                <span>Linkedin</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#">
+                                <i class="fa fa-twitter fa-lg"></i>
+                                <span>Twitter</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="wrapper">
+                    <p>EduardoRamos - 2021</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

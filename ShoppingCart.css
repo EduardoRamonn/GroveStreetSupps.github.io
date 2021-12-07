@@ -1,0 +1,71 @@
+.carrinho-pag {
+    margin: 70px;
+    margin-bottom: -50px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.info-carrinho {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    color: #ffff;
+    background: green;
+    font-weight: normal;
+}
+
+td {
+    padding: 10px 5px;
+    font-size: 20px;
+}
+
+td input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
+td a {
+    color: #ff523b;
+    font-size: 12px;
+}
+
+td img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.preco-total {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.preco-total table {
+    border-top: 3px solid lightgreen;
+    width: 100%;
+    max-width: 350px;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+th:last-child {
+    text-align: right;
+}
+
+#botao {
+    margin-left: 100px;
+    font-size: 20px;
+    width: 250px;
+    height: 40px;
+}

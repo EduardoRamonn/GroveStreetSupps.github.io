@@ -1,0 +1,410 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima nova",sans-serif;
+    box-sizing: border-box;
+}
+
+#Corpo {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+#Cabeçalho {
+    display: flex;
+    align-items: center;
+    background-image: url(FUNDOCABE.jpg);
+    background-size: 400px;
+    background-repeat: repeat-x;
+    background-position: right;
+}
+
+#Logo {
+    height: 150px;
+    width: 300px;
+    margin: 15px;
+    margin-left: 50px;
+    background: transparent;
+}
+
+#Pesquisar {
+    height: 60px;
+    width: 620px;
+    margin-left: 40px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+#IconCarrinho {
+    height: 52px;
+    width: 52px;
+}
+
+#botaocarro {
+    margin-left: 100px;
+    background: transparent;
+    border: none;
+}
+
+#LoginIcon {
+    height: 52px;
+    width: 52px;
+}
+
+#botaoconta {
+    margin-left: 50px;
+    background: transparent;
+    border: none;
+}
+
+.Extras {
+    display: flex;
+    margin-left: 45px;
+    font-size: 80px;
+}
+
+.Extras button {
+    border: none;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+}
+
+#BotaoSobre {
+    margin-left: 23px;
+}
+
+#Categorias {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 55px;
+}
+
+#titulosecao {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+#Categorias {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#CreatinaModelo {
+    height: 70px;
+    width: 70px;
+    margin-left: 5px;
+}
+
+#WheyModelo {
+    height: 70px;
+    width: 70px;
+    margin-left: 15px;
+}
+
+#PreTreinoModelo {
+    height: 70px;
+    width: 70px;
+    margin-left: 7px;
+}
+
+#AminoModelo{
+    height: 70px;
+    width: 70px;
+    margin-left: 7px;
+}
+
+#GhModelo {
+    height: 70px;
+    width: 70px;
+    margin-left: 20px;
+}
+
+#CarboModelo {
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}
+
+#Psyco {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color:rgb(124, 148, 40);
+    background-image: url(FUNDO4.jpg);
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+#PreTreinoPromo {
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+#Comprar {
+    border: none;
+    background: transparent;
+    color: red;
+}
+
+#txt {
+    font-size: 25px;
+}
+
+.prod1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.products p, .products h2  {
+    margin-top: 5px;
+}
+
+#crea1 {
+    height: 250px;
+    width: 260px;
+    margin-right: -250px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#CreaCavalo {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#crea2 {
+    height: 250px;
+    width: 260px;
+    margin-right: -130px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#CreaMAX {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#whey1 {
+    height: 250px;
+    width: 260px;
+    margin-left: -130px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#WheyBlackSkull {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#whey2 {
+    height: 250px;
+    width: 260px;
+    margin-left: -250px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#WheyNutri {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#prod2 {
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#Pre1 {
+    height: 250px;
+    width: 260px;
+    margin-right: -250px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#PWSinister {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#Pre2 {
+    height: 250px;
+    width: 260px;
+    margin-right: -130px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#PwProhibido {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#Anabol1 {
+    height: 250px;
+    width: 260px;
+    margin-left: -130px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#TestodrolGH {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+#Anabol2 {
+    height: 250px;
+    width: 260px;
+    margin-left: -250px;
+    text-align: left;
+    border: none;
+    color: white;
+}
+
+#AnabolHard {
+    height: 250px;
+    width: 260px;
+    background-color: rgb(0, 0, 0);
+}
+
+footer {
+    background-image: url(FUNDORODA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 40px;
+}
+
+#LogoFooter {
+    height: 150px;
+    width: 240px;
+    margin-left: -20px;
+}
+
+footer h2, footer p, footer a, footer span {
+    color: #d1d1d1;
+}
+
+footer h2 {
+    font-weight: 400;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer ul {
+    padding: 0px;
+    margin-top: 5px;
+}
+
+footer li {
+    list-style: none;
+}
+
+.footer-box {
+    width: 31%;
+    padding: 1%;
+    float: left;
+}
+
+footer .wrapper:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.company-footer {
+    width: 80%;
+    margin-left: 50px;
+}
+
+.company-footer h2 {
+    margin-top: 20px;
+}
+
+.company-footer h2, .company-footer p {
+    margin-bottom: 20px;
+}
+
+.footer-list li {
+    margin-bottom: 15px;
+}
+
+.footer-list a {
+    transition: .5s;
+}
+
+.footer-list a:hover {
+    color: #fff;
+}
+
+.footer-list li:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.articles-footer {
+    width: 80%;
+}
+
+.footer-list.footer-article-list span {
+    display: block;
+    float: none;
+}
+
+.fa {
+    font-size: 30px;
+    margin-right: 10px;
+    float: left;
+}
+
+.footer-list li span {
+    float: left;
+    height: 30px;
+    line-height: 30px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #b2b2b2;
+}
+
+.footer-bottom p {
+    font-weight: 600;
+    margin-top: 40px;
+    margin-left: 65px;
+}

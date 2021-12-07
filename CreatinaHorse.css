@@ -1,0 +1,115 @@
+.produto-solo {
+    margin-top: 30px;
+    display: flex;
+}
+
+.produto-solo .col-2 img{
+    padding: 0;
+}
+
+#Big-Img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    height: 750px;
+    width: 750px;
+}
+
+.produto-solo .col-2 {
+    padding: 20px;
+}
+
+.produto-solo h4 {
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.produto-solo h3 {
+    margin-top: 25px;
+}
+
+.produto-solo select {
+    display: block;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxes input {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+.boxes a {
+    margin-left: 5px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: red;
+    border: 3px solid red;
+    padding: 6px;
+    border-radius: 20px;
+}
+
+.produto-solo input {
+    width: 50px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+    border: 1px solid #ff523b;
+}
+
+input:focus {
+    outline: none;
+}
+
+.produto-solo .fa {
+    color: white;
+    margin-left: 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.small-img-row {
+    display: flex;
+}
+
+.small-img-col {
+    flex-basis: 24%;
+    cursor: pointer;
+}
+
+.txt {
+    margin-left: -150px;
+    margin-top: -100px;
+}
+
+.Small-Img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    margin-right: 10px;
+}
+
+#PrimeiraFt {
+    margin-left: 200px;
+}
+
+.row-2 h2 {
+    margin-left: 290px;
+    margin-top: 50px;
+    margin-bottom: -10px;
+}
+
+.row-2 p {
+    margin-left: 1360px;
+}
